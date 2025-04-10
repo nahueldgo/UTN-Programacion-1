@@ -2,7 +2,6 @@
 ## mostrar por pantalla un mensaje que diga “Aprobado”; en caso contrario deberá mostrar el
 ## mensaje “Desaprobado”.
 
-
 nota = float(input("Ingrese su nota: "))
 if nota >= 6:
     print("Aprobado")
