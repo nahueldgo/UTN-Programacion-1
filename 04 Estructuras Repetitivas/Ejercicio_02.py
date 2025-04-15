@@ -1,5 +1,6 @@
-numero = int(input("Ingrese un numero entero: "))
+##2) Desarrolla un programa que solicite al usuario un número entero y determine la cantidad de dígitos que contiene.
 
+numero = int(input("Ingrese un numero entero: "))
 cantidad_digitos = 0
 
 if numero == 0:
