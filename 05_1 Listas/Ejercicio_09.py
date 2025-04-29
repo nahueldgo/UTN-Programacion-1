@@ -10,7 +10,10 @@
 compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
 
 ## a)
-print("a)")
-compras.append[3]["jugo"]
+compras[2].append("jugo")
+## b)
+compras[1][1] = "tallarines"
+## c)
+compras[0].remove("pan")
+## d)
 print(compras)
-
