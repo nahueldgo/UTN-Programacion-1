@@ -7,6 +7,7 @@ def operaciones_basicas(a, b):
     resta=a-b
     multiplicacion=a*b
     division=a/b
+    return (suma, resta, multiplicacion, division)
 
 tupla_vacia=()
 
@@ -16,5 +17,9 @@ num2=int(input("Ingrese el segundo numero: "))
 resultados=operaciones_basicas(num1, num2)
 
 resultados=tupla_vacia+(resultados)
-print(tupla_vacia)
 
+suma, resta, multiplicacion, division = resultados
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
